@@ -1,0 +1,44 @@
+nav a {
+  boarder: 1px solid purple;
+  padding: 3px 28px 3px 28px;
+}
+
+article {
+  width: 60%;
+}
+
+section {
+  width; 20%;
+}
+
+body {
+  /* change my background, and set global font family. */
+}
+
+header h1 {
+  /* Make bigger and color, change our font family to a sans sarif */
+}
+
+.main-nav {
+  /* Change background color, *remove bullets, border on each individual nav element, float the links, center our content within the links. width on links, font color, font family */
+}
+
+aside {
+  /*background, color, float */
+}
+
+aside ul {
+  /* clear both */
+}
+
+article {
+ /* background-color, float to the right?. */
+}
+
+figure {
+/* figure, we want to center using margin:auto */
+}
+
+footer {
+  /* images float left and centered on the page */
+}
