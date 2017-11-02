@@ -1,6 +1,9 @@
-nav a {
-  boarder: 1px solid purple;
-  padding: 3px 28px 3px 28px;
+nav a{
+  border: 1px solid purple;
+  background-color: mediumpurple;
+  padding: 3px 20px 3px 20px;
+  float: left;
+  color: white;
 }
 
 article {
@@ -13,18 +16,28 @@ section {
 
 body {
   /* change my background, and set global font family. */
+    color: lightgray;
+    font-family: sans-serif;
 }
 
 header h1 {
   /* Make bigger and color, change our font family to a sans sarif */
+    color: purple;
+    font-family: sans-serif; 
+    font-size: 2em;
+    padding: 15px 350px 
 }
 
 .main-nav {
   /* Change background color, *remove bullets, border on each individual nav element, float the links, center our content within the links. width on links, font color, font family */
+ 
 }
 
 aside {
   /*background, color, float */
+    float: left;
+    padding: 150px 10px;
+    text-decoration: none;
 }
 
 aside ul {
@@ -33,6 +46,7 @@ aside ul {
 
 article {
  /* background-color, float to the right?. */
+    padding: 150px 500px
 }
 
 figure {
@@ -41,4 +55,6 @@ figure {
 
 footer {
   /* images float left and centered on the page */
+    padding: 100px 400px;
+    float: left;
 }
