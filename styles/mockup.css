@@ -1,60 +1,106 @@
-nav a{
-  border: 1px solid purple;
-  background-color: mediumpurple;
-  padding: 3px 20px 3px 20px;
-  float: left;
-  color: white;
-}
 
-article {
-  width: 60%;
-}
-
-section {
-  width; 20%;
-}
+/* body font changed */
 
 body {
-  /* change my background, and set global font family. */
-    color: lightgray;
     font-family: sans-serif;
 }
 
+/* Header is purple and centered - font amily sans-serif */
+
+header {
+    width: 100%;
+}
+
 header h1 {
-  /* Make bigger and color, change our font family to a sans sarif */
     color: purple;
     font-family: sans-serif; 
     font-size: 2em;
-    padding: 15px 350px 
+    margin-left: 400px;
+    margin-right: 150px;
 }
-
-.main-nav {
-  /* Change background color, *remove bullets, border on each individual nav element, float the links, center our content within the links. width on links, font color, font family */
  
+
+  /*main top nav Change background color, *remove bullets, border on each individual nav element, float the links, center our content within the links. width on links, font color, font family */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background color: mediumpurple;
 }
 
-aside {
-  /*background, color, float */
+nav ul li a {
     float: left;
-    padding: 150px 10px;
+    color: white;
+    text-decoration: none;
+    padding; 3px 25px 3px 25px; 
+}
+
+ nav.main-nav {
+    border: 1px solid purple;
+    background-color: mediumpurple;
+    padding: 15px 25px 15px 25px;
+    color: white;
     text-decoration: none;
 }
 
-aside ul {
-  /* clear both */
-}
+/* side nav - remove decoration, change color, make vertical - float left */
 
-article {
- /* background-color, float to the right?. */
-    padding: 150px 500px
-}
-
-figure {
-/* figure, we want to center using margin:auto */
-}
-
-footer {
-  /* images float left and centered on the page */
-    padding: 100px 400px;
+.column {
     float: left;
+    padding: 15px
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.menu {
+    width: 20%;
+}
+
+menu.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+menu.li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: mediumpurple;
+    color: white;
+}
+
+
+
+
+/* Image in the center below the main nav */
+
+
+div.image {
+    float: right;
+}
+
+
+/* article below the image centered below it */
+
+
+
+.content { 
+    width: 60%;
+}
+
+
+/* centered images in the footer, made into links, spaced out */
+
+
+
+
+
+
+
+
+
